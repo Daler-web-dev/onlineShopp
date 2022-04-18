@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1280px) {
+   
+}
+@media only screen and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .container_grid {
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+    }
+}
